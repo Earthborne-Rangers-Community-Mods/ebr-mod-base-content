@@ -1,0 +1,22 @@
+# Obsidian workspace files (user-specific, not vault content)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/backlink.json
+.obsidian/canvas.json
+
+# Obsidian plugins (mods must not ship plugins)
+.obsidian/plugins/
+.obsidian/community-plugins.json
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

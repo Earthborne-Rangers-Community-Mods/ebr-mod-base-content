@@ -1,0 +1,16 @@
+# Normalize line endings for text files
+* text=auto
+
+# Explicit text
+*.md text diff
+*.css text diff
+*.json text diff
+*.txt text diff
+
+# Binary images — no line-ending conversion, no text diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg text diff
