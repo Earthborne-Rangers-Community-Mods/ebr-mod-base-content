@@ -1,0 +1,58 @@
+﻿> [!stripe-a]
+> IF YOU HAVE COMPLETED LURE (CAUSTIC MULCHER), GO TO [[#EoD2]]
+
+Otherwise, read:
+
+#### RESOLVE THE FOLLOWING BASED ON HOW YOU ENDED THE DAY:
+
+**Ranger too fatigued:**
+
+> Your legs burn as you put one foot in front of the other, but at a certain point you know you just can’t go on. You lean against a rock, heaving a deep sigh. You can’t hunt the mulcher in this state, so you loosen your boots and make yourself comfortable. Just as you begin to settle in for a rest, you hear the crash of lumbering footsteps. You leap to your feet and prepare for the worst.
+> 
+> A caustic mulcher bursts through the trees and charges toward you. You brace for impact, but suddenly the mulcher stops short just a few meters away. Its tongue hangs limply beneath it, and it makes no move to grab you.
+> 
+> “Hallo there!” You look up to see a figure atop the mulcher: Kal Iver, a Ranger well known as one of the most capable (and confident) in the Valley. “Looks like you could use a ride. Turns out these things are pretty easy to tame if you know what you’re doing!”
+> 
+> You hesitantly accept, and careful climb onto the mulcher's back. Although you need to endure Kal’s boasting all the way to the Ranger Station, you have to admit, there's nothing quite like riding a mulcher when your legs are tired.
+
+**Ranger too injured:**
+
+> You wince as you walk forward. Blood is soaking through your temporary bandages. You lean down against a rock, stifling a moan. You’ve tried your best, but you wouldn’t be able to hunt the mulcher in this state.
+> 
+> You set up camp for the night and begin to rewrap your bandages when you hear someone approaching along the trail. You look up to see Kal Iver, a Ranger well known as one of the most capable (and confident) in the Valley, stagger up the path while dragging the massive tentacle-tongue of a caustic mulcher.
+> 
+> “Why hello!” He throws down the tongue and joins you, stripping off thick, acid-scarred gloves as he does. “Take a look at what I’m bringing to Sirisana at the Biological Outpost! I bet you’re glad you weren’t the only one the Elders assigned to this mission. Hope you don’t mind if I stay here for the night; wrestling with that mulcher really tired me out! Though, I'd say I have less to complain about than it does, poor fellow.”
+> 
+> Kal kicks off his boots, tips his hat over his eyes, and begins snoring softly. You go back to tending your wounds, not the least of which your bruised ego.
+
+**A human cleared with <span class="harm"></span>:**
+
+> With a companion in need, you know that hunting the mulcher will have to wait. You send up a starspark, signaling for any Ranger in the vicinity to come to your aid. It soars high above the trees and explodes in a shower of glittering white light. You assure your companion that help is on the way.
+
+# EoD2
+
+#### RESOLVE THE FOLLOWING BASED ON HOW YOU ENDED THE DAY:
+
+**Ranger too fatigued:**
+
+> You stagger back, tumble, and take cover behind a fallen tree. You’ve pushed yourself to your limits, but the mulcher is just too formidable a foe. The struggle has left you exhausted, and if you keep going, you might end up the mulcher’s next meal. You take your first opening and flee. You will have to get some rest, regroup, and try again tomorrow.
+
+**Ranger too injured:**
+
+> Despite your greatest efforts, the mulcher has proven to be too formidable a foe. You think back upon your life and all the events that led you here to this moment. Despite the direness of your current dilemma, you find that you have no regrets. You embrace the end as the mulcher envelopes you in its grotesque mouth. But then, the mulcher's jaws unclench, rain pours in, and you see a cloaked figure framed against the darkened sky, a foot on either side of the mulcher's mouth, holding it open.
+> 
+> "Don't just sit there!" he yells. "Get out while you can!"
+> 
+> As if freed from a trance, you find the strength to leap from the mulcher's grasp and run to safety. After some time, you hear the mulcher move off in into the distance, and you're joined by your savior, a fellow Ranger by the name of Kal Iver. He looks you over, making sure you're not bleeding, and that nothing is broken. Once satisfied with your well-being, he sits down beside you and takes a drink from his infusion canteen.
+> 
+> "Thank the ancestors I came along when I did!" he says. "A few more minutes and you would have been nothing more than a slurry of your component elements!"
+> 
+> You give Kal your thanks and think back on your close shave with death. You take a deep, invigorating breath. You are alive, and all the more thankful for it.
+
+**A human cleared with <span class="harm"></span>:**
+
+> The mulcher wraps its tongue around your companion and starts drawing them towards it.
+> 
+> Realizing the horrible danger, you leap up and wrestle your companion free. You both land hard on the ground. The mulcher reels, and you use the opportunity to flee. You run until your legs can carry you no further. Taking shelter at the base of a tall and sturdy oak, you listen for sounds of pursuit. There are none. You and your companion are safe.
+> 
+> Looking at your their wounds, they are going to need more help than you can provide. Once you're certain that the mulcher has lost interest, you send up a starspark, signaling for any Ranger in the vicinity to come to your aid. It soars high above the trees and explodes in a shower of glittering white light. You assure your companion that help is on the way.
