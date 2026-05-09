@@ -46,3 +46,18 @@
   content: "\E01E";
   font-family: "EBRIcons";
 }
+
+.flooded::before {
+  content: "\E021";
+  font-family: "EBRIcons";
+}
+
+.locked::before {
+  content: "\E022";
+  font-family: "EBRIcons";
+}
+
+.overgrown::before {
+  content: "\E023";
+  font-family: "EBRIcons";
+}
