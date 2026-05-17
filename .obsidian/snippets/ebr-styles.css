@@ -11,7 +11,8 @@
 /* Apply font to all text */
 .markdown-preview-view,
 .markdown-reading-view,
-.markdown-source-view {
+.markdown-source-view,
+.hover-popover .markdown-rendered {
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -72,7 +73,8 @@
 }
 
 /* Blockquotes -- cream tint with gold border, no right border */
-.markdown-reading-view blockquote:not(.callout) {
+.markdown-reading-view blockquote:not(.callout),
+.hover-popover .markdown-rendered blockquote:not(.callout) {
   background-color: #fafae226;
   border: 1px solid #ffbd64;
   border-right: none;
@@ -80,17 +82,18 @@
 }
 
 /* Heading colors (matching source --ifm-heading-color) */
-.theme-light .markdown-reading-view h1,
-.theme-light .markdown-reading-view h2 {
+.theme-light h1,
+.theme-light h2 {
   color: #1e4131;
 }
-.theme-dark .markdown-reading-view h1,
-.theme-dark .markdown-reading-view h2 {
+.theme-dark h1,
+.theme-dark h2 {
   color: #fafae2;
 }
 
 /* h3 = source h4 (orange banner, uppercase, centered) */
-.theme-light .markdown-reading-view h3 {
+.theme-light .markdown-reading-view h3,
+.theme-light .hover-popover .markdown-rendered h3 {
   color: #1e4131;
   background-color: #ffcf8f;
   font-size: 120%;
@@ -98,7 +101,8 @@
   text-align: center;
   padding: 10px 0 5px;
 }
-.theme-dark .markdown-reading-view h3 {
+.theme-dark .markdown-reading-view h3,
+.theme-dark .hover-popover .markdown-rendered h3 {
   color: #fafae2;
   background-color: #fca633;
   font-size: 120%;
@@ -108,7 +112,8 @@
 }
 
 /* h4 = source h5 (blue banner, uppercase, centered) */
-.theme-light .markdown-reading-view h4 {
+.theme-light .markdown-reading-view h4,
+.theme-light .hover-popover .markdown-rendered h4 {
   color: #1e4131;
   background-color: #dbe5ff;
   font-size: 120%;
@@ -116,7 +121,8 @@
   text-align: center;
   padding: 10px 10px 5px;
 }
-.theme-dark .markdown-reading-view h4 {
+.theme-dark .markdown-reading-view h4,
+.theme-dark .hover-popover .markdown-rendered h4 {
   color: #fafae2;
   background-color: #80aeff;
   font-size: 120%;
@@ -146,31 +152,35 @@
 }
 
 /* h5 = red_text (choices/branches) */
-.theme-light .markdown-reading-view h5 {
+.theme-light h5 {
   color: #c00b0b;
   font-size: 1em;
   font-weight: 700;
   margin: 0.5em 0;
+  margin-top: 1em !important;
 }
-.theme-dark .markdown-reading-view h5 {
+.theme-dark h5 {
   color: #ec8b8b;
   font-size: 1em;
   font-weight: 700;
   margin: 0.5em 0;
+  margin-top: 1em !important;
 }
 
 /* h6 = blue_text (directives) */
-.theme-light .markdown-reading-view h6 {
+.theme-light h6 {
   color: #6282c1;
   font-size: 1em;
   font-weight: 700;
   font-style: italic;
   margin: 0.5em 0;
+  margin-top: 0 !important;
 }
-.theme-dark .markdown-reading-view h6 {
+.theme-dark h6 {
   color: #b5ccfa;
   font-size: 1em;
   font-weight: 700;
   font-style: italic;
   margin: 0.5em 0;
+  margin-top: 0 !important;
 }
