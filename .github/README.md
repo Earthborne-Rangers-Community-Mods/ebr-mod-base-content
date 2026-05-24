@@ -1,23 +1,19 @@
 # ebr-mod-base-content
 
-The canonical Earthborne Rangers campaign content, formatted as an Obsidian vault. This is the **upstream repo that all mods fork from**.
+The base Obsidian vault that forms the basis for all mods.
 
-## What's in here
+## Where to put content
 
-- **Campaign content** — Markdown files for the whole official campaign guide.
-- **Obsidian config** — `.obsidian/snippets/ebr-symbols.css` for rendering custom game symbols (progress, harm, sun, mountain, etc.).
-- **Attachments** — images and other media referenced by the content.
+- **Custom Campaigns** - Create a subfolder under Custom Campaigns if you're building your own custom campaign (like Legacy of the Ancestors) or expansion of a campaign (like Spire in Bloom).
+- **Official Campaigns** - If you're modifying official campaign content, put it in a subfolder (like "Lure of the Valley") under Official Campaigns.
+- **One-day Missions** - If you're making a custom One-day Mission, create a subfolder here.
+- **Pictures** - If you have any pictures that are just meant to be embedded in pages and which you don't expect players to look at on their own, put them here. If you have custom card images, don't put them here. Put them in a Cards subfolder under your mod's folder instead.
+- **About this Mod.md** - This is where you can describe your mod for others to know what it's all about. Don't move this file or change its name.
 
-## How it's used
+## How to make a mod
 
-| Role | Workflow |
-|---|---|
-| **Players** | You don't interact with this repo directly. The mod manager downloads mods (which are forks of this repo) for you. |
-| **Mod creators** | Fork this repo to start a new mod. Edit content in Obsidian. Use `ebr-mod-tools` CLI to manage your mod. |
-| **Merge-mod creators** | Fork this repo (or another mod), then use `ebr merge-from` to combine multiple mods. |
+Mods are created using the [EBR Mod Tools](https://github.com/Earthborne-Rangers-Community-Mods/ebr-mod-tools).
 
-## Key conventions
+## Contributing
 
-- **Manifest** file paths encode structure; mod metadata lives in `ebr-mod.json`.
-- **Wikilinks** (`[[Page Name]]`) for internal links when possible.
-- **Custom symbols** use HTML spans styled by `ebr-symbols.css` (e.g., `<span class="progress"></span>`).
+If you have a CSS fix that belongs in ALL mods, or otherwise have a suggestion for tweaking the mod template, feel free to open a PR. Note that changes to this base are rare, however, and may not be accepted. See [Contributing](Contributing.md) for more details.

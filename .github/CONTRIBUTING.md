@@ -36,8 +36,7 @@ The `main` branch is a thin shell containing only:
 - `About this Mod.md` starter template
 
 It contains **no campaign content**. Campaign content lives on per-campaign
-branches (`campaign/lure-of-the-valley`, `campaign/legacy-of-the-ancestors`,
-etc.) which mod creators pull in via `ebr include`.
+branches which mod creators pull in via `ebr include`.
 
 ### What We Accept on `main`
 
@@ -47,8 +46,7 @@ etc.) which mod creators pull in via `ebr include`.
 
 ### What We Do Not Accept
 
-- Campaign content changes (those go on campaign branches, maintained by the
-  project lead)
+- Campaign content changes (those go on campaign branches, maintained by approved community members)
 - New features or structural changes without prior discussion
 
 ## Reporting Issues
