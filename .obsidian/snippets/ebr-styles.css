@@ -8,7 +8,7 @@
   font-style: normal;
 }
 
-/* Apply font to all text */
+/* Apply font to all text (Obsidian-only; shadow DOM inherits host font) */
 .markdown-preview-view,
 .markdown-reading-view,
 .markdown-source-view,
@@ -73,15 +73,32 @@
 }
 
 /* Blockquotes -- cream tint with gold border, no right border */
-.markdown-reading-view blockquote:not(.callout),
-.hover-popover .markdown-rendered blockquote:not(.callout) {
+.markdown-rendered blockquote:not(.callout) {
   background-color: #fafae226;
   border: 1px solid #ffbd64;
   border-right: none;
   padding: 20px;
 }
 
-/* Heading colors (matching source --ifm-heading-color) */
+/* Inline code repurposed as blue bold text */
+.theme-light code {
+  color: #6282c1;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: inherit;
+  background: none;
+  padding: 0;
+}
+.theme-dark code {
+  color: #b5ccfa;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: inherit;
+  background: none;
+  padding: 0;
+}
+
+/* Heading colors */
 .theme-light h1,
 .theme-light h2 {
   color: #1e4131;
@@ -92,8 +109,7 @@
 }
 
 /* h3 = source h4 (orange banner, uppercase, centered) */
-.theme-light .markdown-reading-view h3,
-.theme-light .hover-popover .markdown-rendered h3 {
+.theme-light h3 {
   color: #1e4131;
   background-color: #ffcf8f;
   font-size: 120%;
@@ -101,8 +117,7 @@
   text-align: center;
   padding: 10px 0 5px;
 }
-.theme-dark .markdown-reading-view h3,
-.theme-dark .hover-popover .markdown-rendered h3 {
+.theme-dark h3 {
   color: #fafae2;
   background-color: #fca633;
   font-size: 120%;
@@ -112,8 +127,7 @@
 }
 
 /* h4 = source h5 (blue banner, uppercase, centered) */
-.theme-light .markdown-reading-view h4,
-.theme-light .hover-popover .markdown-rendered h4 {
+.theme-light h4 {
   color: #1e4131;
   background-color: #dbe5ff;
   font-size: 120%;
@@ -121,34 +135,13 @@
   text-align: center;
   padding: 10px 10px 5px;
 }
-.theme-dark .markdown-reading-view h4,
-.theme-dark .hover-popover .markdown-rendered h4 {
+.theme-dark h4 {
   color: #fafae2;
   background-color: #80aeff;
   font-size: 120%;
   text-transform: uppercase;
   text-align: center;
   padding: 10px 10px 5px;
-}
-
-/* Inline code repurposed as blue bold text (light mode) */
-.theme-light code {
-  color: #6282c1;
-  font-weight: 700;
-  font-family: inherit;
-  font-size: inherit;
-  background: none;
-  padding: 0;
-}
-
-/* Inline code repurposed as blue bold text (dark mode) */
-.theme-dark code {
-  color: #b5ccfa;
-  font-weight: 700;
-  font-family: inherit;
-  font-size: inherit;
-  background: none;
-  padding: 0;
 }
 
 /* h5 = red_text (choices/branches) */
