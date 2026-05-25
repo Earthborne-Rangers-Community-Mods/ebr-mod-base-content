@@ -16,6 +16,13 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* Headings, blockquotes, and callouts use the custom font in all contexts */
+h1, h2, h3, h4, h5, h6,
+blockquote,
+.callout {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 /* Page background and text color */
 .theme-light {
   --background-primary: ivory;
@@ -116,6 +123,7 @@
   text-transform: uppercase;
   text-align: center;
   padding: 10px 0 5px;
+  font-family: "Josefin Sans", sans-serif;
 }
 .theme-dark h3 {
   color: #fafae2;
@@ -124,6 +132,7 @@
   text-transform: uppercase;
   text-align: center;
   padding: 10px 0 5px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /* h4 = source h5 (blue banner, uppercase, centered) */
