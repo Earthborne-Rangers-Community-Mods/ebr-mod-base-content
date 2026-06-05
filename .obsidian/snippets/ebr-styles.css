@@ -136,9 +136,11 @@ blockquote,
   background-color: #ffcf8f;
   font-size: 120%;
   text-transform: uppercase;
-  text-align: center;
   padding: 10px 0 5px;
   font-family: "Josefin Sans", sans-serif;
+}
+.theme-light h3 {
+  text-align: center;
 }
 .theme-dark h3,
 .theme-dark .HyperMD-header-3 {
@@ -146,9 +148,11 @@ blockquote,
   background-color: #fca633;
   font-size: 120%;
   text-transform: uppercase;
-  text-align: center;
   padding: 10px 0 5px;
   font-family: "Josefin Sans", sans-serif;
+}
+.theme-dark h3 {
+  text-align: center;
 }
 
 /* h4 = source h5 (blue banner, uppercase, centered) */
