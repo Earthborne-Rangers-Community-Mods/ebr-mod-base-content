@@ -18,7 +18,9 @@
 
 /* Headings, blockquotes, and callouts use the custom font in all contexts */
 h1, h2, h3, h4, h5, h6,
+.HyperMD-header,
 blockquote,
+.HyperMD-quote,
 .callout {
   font-family: "Josefin Sans", sans-serif;
 }
@@ -80,7 +82,8 @@ blockquote,
 }
 
 /* Blockquotes -- cream tint with gold border, no right border */
-.markdown-rendered blockquote:not(.callout) {
+.markdown-rendered blockquote:not(.callout),
+.HyperMD-quote {
   background-color: #fafae226;
   border: 1px solid #ffbd64;
   border-right: none;
@@ -88,7 +91,8 @@ blockquote,
 }
 
 /* Inline code repurposed as blue bold text */
-.theme-light code {
+.theme-light code,
+.theme-light .cm-inline-code {
   color: #6282c1;
   font-weight: 700;
   font-family: inherit;
@@ -96,7 +100,8 @@ blockquote,
   background: none;
   padding: 0;
 }
-.theme-dark code {
+.theme-dark code,
+.theme-dark .cm-inline-code {
   color: #b5ccfa;
   font-weight: 700;
   font-family: inherit;
@@ -107,16 +112,21 @@ blockquote,
 
 /* Heading colors */
 .theme-light h1,
-.theme-light h2 {
+.theme-light h2,
+.theme-light .HyperMD-header-1,
+.theme-light .HyperMD-header-2 {
   color: #1e4131;
 }
 .theme-dark h1,
-.theme-dark h2 {
+.theme-dark h2,
+.theme-dark .HyperMD-header-1,
+.theme-dark .HyperMD-header-2 {
   color: #fafae2;
 }
 
 /* h3 = source h4 (orange banner, uppercase, centered) */
-.theme-light h3 {
+.theme-light h3,
+.theme-light .HyperMD-header-3 {
   color: #1e4131;
   background-color: #ffcf8f;
   font-size: 120%;
@@ -125,7 +135,8 @@ blockquote,
   padding: 10px 0 5px;
   font-family: "Josefin Sans", sans-serif;
 }
-.theme-dark h3 {
+.theme-dark h3,
+.theme-dark .HyperMD-header-3 {
   color: #fafae2;
   background-color: #fca633;
   font-size: 120%;
@@ -136,7 +147,8 @@ blockquote,
 }
 
 /* h4 = source h5 (blue banner, uppercase, centered) */
-.theme-light h4 {
+.theme-light h4,
+.theme-light .HyperMD-header-4 {
   color: #1e4131;
   background-color: #dbe5ff;
   font-size: 120%;
@@ -144,7 +156,8 @@ blockquote,
   text-align: center;
   padding: 10px 10px 5px;
 }
-.theme-dark h4 {
+.theme-dark h4,
+.theme-dark .HyperMD-header-4 {
   color: #fafae2;
   background-color: #80aeff;
   font-size: 120%;
@@ -154,14 +167,16 @@ blockquote,
 }
 
 /* h5 = red_text (choices/branches) */
-.theme-light h5 {
+.theme-light h5,
+.theme-light .cm-header-5 {
   color: #c00b0b;
   font-size: 1em;
   font-weight: 700;
   margin: 0.5em 0;
   margin-top: 1em !important;
 }
-.theme-dark h5 {
+.theme-dark h5,
+.theme-dark .cm-header-5 {
   color: #ec8b8b;
   font-size: 1em;
   font-weight: 700;
@@ -170,7 +185,8 @@ blockquote,
 }
 
 /* h6 = blue_text (directives) */
-.theme-light h6 {
+.theme-light h6,
+.theme-light .cm-header-6 {
   color: #6282c1;
   font-size: 1em;
   font-weight: 700;
@@ -178,7 +194,8 @@ blockquote,
   margin: 0.5em 0;
   margin-top: 0 !important;
 }
-.theme-dark h6 {
+.theme-dark h6,
+.theme-dark .cm-header-6 {
   color: #b5ccfa;
   font-size: 1em;
   font-weight: 700;
