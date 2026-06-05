@@ -13,6 +13,7 @@
 .markdown-reading-view,
 .markdown-source-view,
 .hover-popover .markdown-rendered {
+  --font-text: "Josefin Sans", sans-serif;
   font-family: "Josefin Sans", sans-serif;
 }
 
