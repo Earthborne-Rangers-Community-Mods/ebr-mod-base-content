@@ -158,8 +158,10 @@ blockquote,
   background-color: #dbe5ff;
   font-size: 120%;
   text-transform: uppercase;
-  text-align: center;
   padding: 10px 10px 5px;
+}
+.theme-light h4 {
+  text-align: center;
 }
 .theme-dark h4,
 .theme-dark .HyperMD-header-4 {
@@ -167,8 +169,10 @@ blockquote,
   background-color: #80aeff;
   font-size: 120%;
   text-transform: uppercase;
-  text-align: center;
   padding: 10px 10px 5px;
+}
+.theme-dark h4 {
+  text-align: center;
 }
 
 /* h5 = red_text (choices/branches) */
