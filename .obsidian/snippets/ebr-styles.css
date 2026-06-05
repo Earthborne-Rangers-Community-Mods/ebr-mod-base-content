@@ -83,12 +83,16 @@ blockquote,
 }
 
 /* Blockquotes -- cream tint with gold border, no right border */
-.markdown-rendered blockquote:not(.callout),
-.HyperMD-quote {
+.markdown-rendered blockquote:not(.callout) {
   background-color: #fafae226;
   border: 1px solid #ffbd64;
   border-right: none;
   padding: 20px;
+}
+.HyperMD-quote {
+  background-color: #fafae226;
+  --blockquote-border-color: #ffbd64;
+  padding-left: 20px;
 }
 
 /* Inline code repurposed as blue bold text */
